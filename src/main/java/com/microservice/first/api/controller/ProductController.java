@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-
+@RefreshScope
 @RestController
 @RequestMapping("product")
 public class ProductController {
